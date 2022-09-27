@@ -1,0 +1,192 @@
+/* Configurando imagem do logo */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-dimi {
+    margin: 0;
+    padding: 0 100PX;
+    width: 35%;
+    background-position: center;
+    /* display: inline-block; */
+    background: #ffffff;
+}
+.conteudo {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: #302d2d;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: relative;
+    font-family: monospace;
+    float: left;
+    width: 97%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.logo-dimi:hover {
+    
+}
+
+/* Inserindo imagem no dropdown */
+.playstation {
+    background-image: url('ps5_3.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    height: 350px;
+}
+
+
+/* Inserindo imagem no dropdown */
+.xbox {
+    background-image: url('xbox.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    height: 350px;
+}
+
+/* Inserindo imagem no dropdown */
+.nintendo {
+    background-image: url('nintendo.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    height: 350px;
+}
+
+/* Cor de fundo do menu principal e botões */
+nav {
+    background: #ffffff;
+    font-size: 0;
+    position: relative;
+    padding: 0 25px;
+}
+
+/* Configuração para que todos fiquem alinhados */
+nav > ul > li {
+    display: inline;
+    float: left;
+    font-size: 14px;
+    padding: 10px 50px 0px 70px;
+    position: relative;
+    line-height: 35px;
+    width: 120px;
+    text-align: center;
+}
+
+
+/* Configuração dos efeitos do menu principal */
+nav > ul > li > a {
+    color: #000000;
+    display: inline-block;
+    padding: 10px 50px;
+    transition: all .5s ease;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 6.0em;
+    background: #f1f1f1;    
+}
+
+/* Configuração dos efeitos do menu principal ao passar mouse*/
+nav > ul > li:hover > a {
+    color: #ffffff;
+    padding: 0 auto;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+/* Configuração do botão Playstation */
+nav > ul > li:hover > .ps4 {
+    color: #ffffff;
+    padding: 0 auto;
+    background-image: url('bg.jpg');
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+/* Configuração do botão Xbox */
+nav > ul > li:hover > .xb {
+    color: #ffffff;
+    padding: 0 auto;
+    background-image: url('bgxb.jpg');
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+/* Configuração do botão nintendo */
+nav > ul > li:hover > .ninte {
+    color: #ffffff;
+    padding: 0 auto;
+    background-image: url('ninred.jpg');
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+
+/* Configuração do menu principal para o tamanho normal */
+.mega-menu {
+    visibility: hidden;
+    opacity: 0.2;
+    transition: visibility 0.2s, opacity 0.5s linear;
+    position: absolute;
+    width: auto;
+}
+
+/* Configuração do tamanho do submenu */
+.mega-menu .container {
+    text-align: left;
+    border: none;
+    width: 200px;
+    font-size: 16px;
+}
+
+/* Configurações de cores e distanciamento do submenu */
+.mega-menu a {
+    color: #ddd;
+    display: block;
+    padding: 10px 10px;
+}
+
+/* Configurações dos efeitos do submenu */
+.mega-menu a:hover {
+    color: #0d0d0e;
+    background-color: #eee;
+    transition: all .6s ease;
+}
+
+/* Configurações de aparição do submenu */
+.dropdown:hover .mega-menu {
+    visibility: visible;
+    opacity: 1;
+    transition: all .6s ease;
+}   
+
+.divisao, p {
+    margin: 0;
+    padding: 0;
+    background: rgb(7, 195, 241);
+    color: #eee;
+}
+
+/* Configurando botão de pesquisa */
+

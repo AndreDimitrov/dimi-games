@@ -1,0 +1,172 @@
+body {
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: #302d2d;
+}
+
+/* Retirando sublinhado dos links */
+a {
+    text-decoration: none;
+}
+
+/* Alinhando os itens dos menus */
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+/* Configurando os itens do submenu */
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+/* Inserindo imagem no dropdown */
+.playstation {
+    /* background: #023f9b; */
+    background-image: url('ps5_2.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    height: 350px;
+    background-attachment:scroll;
+}
+
+/* Inserindo imagem no dropdown */
+.xbox {
+    /* background: #07a035; */
+    background-image: url('xbox.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    height: 350px;
+    background-attachment:scroll;
+}
+
+/* Cor de funndo do menu principal e botões */
+nav {
+    background: #ffffff;
+    font-size: 0;
+    position: relative;
+    padding: 0 25px;
+    /* color: #eee; */
+}
+
+/* Configuração para que todos fiquem alinhados */
+nav > ul > li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 2px;
+    position: relative;
+    /* border: 1px solid #ffffff; */
+    line-height: 35px;
+    /* text-align: center; */
+    /* padding: 0; */
+    width: 120px;
+    text-align: center;
+}
+
+
+/* Configuração dos efeitos do menu principal */
+nav > ul > li > a {
+    color: #000000;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease;
+    text-transform: uppercase;
+    /* width: auto; */
+    font-size: 18px;
+}
+
+/* Configuração dos efeitos do menu principal ao passar mouse*/
+nav > ul > li:hover > a {
+    color: #ffffff;
+    background: rgb(17, 143, 70);
+    padding: 0 auto;
+}
+    /* background-image: url('ps5_2.jpg'); */
+    /* opacity: 0; */
+    /* transition: visibility 0s, opacity 0.5s linear; */
+    /* border-bottom: 3px solid #444; */
+    /* box-shadow: 0 16px 8px 0 #000000; */
+
+
+/* nav ul li a:hover {
+    color: #ffffff;
+    background: #2d6a91;
+} */
+
+/* Item sem uso */
+/* nav > ul > li > a:hover {
+    background-color: #eee;
+    width: 100%;
+} */
+
+/* Configuração do menu principal para o tamanho normal */
+.mega-menu {
+    /* background: #122da8; */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    position: absolute;
+    /* left: 0; */
+    width: auto;
+    /* padding-bottom: 20px; */
+}
+
+/* Item não utilizado
+.mega-menu h3 {
+    color: #444; 
+} */
+
+/* Configuração do tamanho do submenu */
+.mega-menu .container {
+    /* display: flex; */
+    text-align: left;
+    border: none;
+    width: 200px;
+    /* padding: 5px; */
+    font-size: 16px;
+}
+
+/* Item não utilizado
+.mega-menu .item {
+    flex-grow: 1;
+} */
+
+/* Item não utilizado
+.mega-menu .item img {
+    width: 100%;
+} */
+
+/* Configurações de cores e distanciamento do submenu */
+.mega-menu a {
+    /* border-bottom: 1px solid #ddd; */
+    color: #ddd;
+    display: block;
+    padding: 10px 0 10px 10px;
+}
+
+/* Configurações dos efeitos do submenu */
+.mega-menu a:hover {
+    color: #2d6a91;
+    background-color: #eee;
+    transition: all .3s ease;
+}
+
+/* Item não utilizado
+.dropdown {
+    position: static;
+} */
+
+/* Configurações de aparição do submenu */
+.dropdown:hover .mega-menu {
+    visibility: visible;
+    opacity: 1;
+}

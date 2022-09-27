@@ -1,0 +1,97 @@
+body {
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: #302d2d;
+}
+
+.container {
+    margin: auto;
+    width: 2000px;
+    display: inline;
+    height: 2000px;
+}
+
+nav {
+    position: relative;
+    font-family: monospace;
+    float: left;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #ffffff;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    color: #000000;
+}
+
+.playstation  {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: visibility 0s, opacity 0.5s linear;
+    margin-top: 1rem;
+    left: 0;
+    /* display: none; */
+    box-shadow: 0 8px 16px 0 #000000;
+    width: 150px;
+    height: 400px;
+}
+
+.xbox  {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: visibility 0s, opacity 0.5s linear;
+    margin-top: 1rem;
+    left: 0;
+    /* display: none; */
+    box-shadow: 0 8px 16px 0 #000000;
+    width: 150px;
+    height: 400px;
+    background-image: url('ps5_2.jpg');
+}
+
+li ul li {
+    clear: both;
+    width: 100%;
+}
+
+ul li:hover {
+    background: #4caf50;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: green;
+}
+
+/* Controla a exibição do dropdown */
+ul li:hover>ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}  
+
