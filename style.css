@@ -6,8 +6,8 @@
 
 .logo-dimi {
     margin: 0;
-    padding: 0 100PX;
-    width: 35%;
+    padding: 0 100PX 0 200px;
+    width: 30%;
     background-position: center;
     /* display: inline-block; */
     background: #ffffff;
@@ -52,7 +52,8 @@ ul {
     background-repeat: no-repeat;
     background-position:center;
     background-size: 100%;
-    height: 350px;
+    width: 239px;
+    height: 420px;
 }
 
 
@@ -62,7 +63,8 @@ ul {
     background-repeat: no-repeat;
     background-position:center;
     background-size: 100%;
-    height: 350px;
+    width: 239px;
+    height: 420px;
 }
 
 /* Inserindo imagem no dropdown */
@@ -71,7 +73,8 @@ ul {
     background-repeat: no-repeat;
     background-position:center;
     background-size: 100%;
-    height: 350px;
+    width: 239px;
+    height: 420px;
 }
 
 /* Cor de fundo do menu principal e botões */
@@ -100,18 +103,18 @@ nav > ul > li > a {
     color: #000000;
     display: inline-block;
     padding: 10px 50px;
-    transition: all .5s ease;
+    transition: all .8s ease;
     text-transform: uppercase;
     font-size: 18px;
     width: 6.0em;
-    background: #f1f1f1;    
+    position: relative;
 }
 
 /* Configuração dos efeitos do menu principal ao passar mouse*/
 nav > ul > li:hover > a {
     color: #ffffff;
     padding: 0 auto;
-    transition: all .5s ease;
+    transition: all .6s ease;
     cursor: pointer;
 }
 
@@ -120,7 +123,7 @@ nav > ul > li:hover > .ps4 {
     color: #ffffff;
     padding: 0 auto;
     background-image: url('bg.jpg');
-    transition: all .5s ease;
+    transition: all .6s ease;
     cursor: pointer;
 }
 
@@ -129,7 +132,7 @@ nav > ul > li:hover > .xb {
     color: #ffffff;
     padding: 0 auto;
     background-image: url('bgxb.jpg');
-    transition: all .5s ease;
+    transition: all .6s ease;
     cursor: pointer;
 }
 
@@ -138,7 +141,7 @@ nav > ul > li:hover > .ninte {
     color: #ffffff;
     padding: 0 auto;
     background-image: url('ninred.jpg');
-    transition: all .5s ease;
+    transition: all .6s ease;
     cursor: pointer;
 }
 
@@ -153,18 +156,20 @@ nav > ul > li:hover > .ninte {
 }
 
 /* Configuração do tamanho do submenu */
-.mega-menu .container {
-    text-align: left;
+nav > ul > li {
+    text-align: center;
     border: none;
-    width: 200px;
+    width: auto;
     font-size: 16px;
+    padding: 0 15px;
 }
 
 /* Configurações de cores e distanciamento do submenu */
 .mega-menu a {
     color: #ddd;
     display: block;
-    padding: 10px 10px;
+    padding: 10px 13px;
+    text-align: left;
 }
 
 /* Configurações dos efeitos do submenu */
@@ -172,6 +177,7 @@ nav > ul > li:hover > .ninte {
     color: #0d0d0e;
     background-color: #eee;
     transition: all .6s ease;
+    width: auto;
 }
 
 /* Configurações de aparição do submenu */
