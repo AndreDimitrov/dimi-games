@@ -8,9 +8,10 @@
     margin: 0;
     padding: 0 100PX 0 200px;
     width: 30%;
-    background-position: center;
+    display: block;
+    /* background-position: center; */
     /* display: inline-block; */
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 .conteudo {
     display: flex;
@@ -196,3 +197,50 @@ nav > ul > li {
 
 /* Configurando botão de pesquisa */
 
+
+/* Configuração do corpo site playstation 5 */
+
+.subtitulo {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex-container {
+    display:inline-block;
+    justify-content: center;
+    /* position: relative; */
+    
+}
+
+.item-img {
+    width: 25vh;
+    background: #ffffff;
+    padding: 40px 50px 40px 40px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 5px;
+    /* margin-right: 50px; */
+    /* position: relative */
+    /* display: inline ; */
+}
+
+.flex-container span{
+    margin: 30px 0 0 0px;
+    text-align: center;
+    /* position: fixed; */
+    color: #ffffff;
+    /* display: inline-block; */
+}
+
+.teste1 {
+    color: #000000;
+    text-align: center;
+    /* position: relative; */
+    /* margin: 120px 150px; */
+    padding: 10px 238px 40px 40px;
+    background: #ffffff;
+    margin-left: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
