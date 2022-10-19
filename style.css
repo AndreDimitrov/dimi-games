@@ -175,7 +175,7 @@ nav > ul > li {
 
 /* Configurações dos efeitos do submenu */
 .mega-menu a:hover {
-    color: #0d0d0e;
+    color: #fff;
     background-color: #eee;
     transition: all .6s ease;
     width: auto;
@@ -207,40 +207,113 @@ nav > ul > li {
 }
 
 .flex-container {
-    display:inline-block;
+    width: 940px;
+    margin: auto    ;
+    display:flex    ;
     justify-content: center;
+    gap: 10px;
     /* position: relative; */
-    
 }
 
-.item-img {
+.flex-container img {
     width: 25vh;
+    height: 35vh;
     background: #ffffff;
-    padding: 40px 50px 40px 40px;
+    padding: 40px 50px 170px 40px;
     margin-top: 60px;
     margin-left: 20px;
     border-radius: 5px;
-    /* margin-right: 50px; */
-    /* position: relative */
-    /* display: inline ; */
 }
 
-.flex-container span{
-    margin: 30px 0 0 0px;
+.flex-container button {
+    font-size: 15px;
+    /* border-style: rgb(8, 147, 165); */
+    /* border-style: none; */
+    border-color: rgb(8, 147, 165);
+    border-width: 0.5px;
+    color: rgb(8, 147, 165);
+}
+
+.flex-container button:hover {
+    color: #fff;
+    background-color: rgb(8, 147, 165);
+    transition: all .6s ease;
+    text-decoration: none;
+    border-style: none;
+}
+
+.botao1 {
+    position: absolute;
     text-align: center;
-    /* position: fixed; */
-    color: #ffffff;
-    /* display: inline-block; */
+    background-color: #fff;
+    padding: 10px 60px;
+    margin: 530px 788px 40px -250px;
+    border-radius: 15px;
 }
 
-.teste1 {
+.botao2 {
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 60px;
+    margin: 530px 333px 40px 1px;
+    border-radius: 15px;
+}
+
+.botao3 {
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 60px;
+    margin: 530px -370px 40px 1px;
+    border-radius: 15px;
+}
+
+.botao4 {
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 60px;
+    margin: 530px -1075px 40px 1px;
+    border-radius: 15px;
+}
+
+.preco1 {
+    position: absolute;
+    /* bottom: 0; */
+    background: none;
     color: #000000;
+    padding: 10px 60px;
+    margin: 420px 15px 15px -1030px;
+    font-weight: bold;
+}
+
+.preco2 {
+    position: absolute;
     text-align: center;
-    /* position: relative; */
-    /* margin: 120px 150px; */
-    padding: 10px 238px 40px 40px;
-    background: #ffffff;
-    margin-left: 20px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    color: #000000;
+    background: none;
+    padding: 10px 60px;
+    margin: 420px 330px 40px 1px;
+    border-radius: 15px;
+}
+
+.preco3 {
+    position: absolute;
+    text-align: center;
+    color: #000000;
+    background: none;
+    padding: 10px 60px;
+    margin: 420px -370px 40px 1px;
+    border-radius: 15px;
+}
+
+.preco4 {
+    position: absolute;
+    text-align: center;
+    color: #000000;
+    background: none;
+    padding: 10px 60px;
+    margin: 420px -1075px 40px 1px;
+    border-radius: 15px;
 }
